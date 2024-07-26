@@ -1,6 +1,6 @@
 apiVersion: v2
 name: langfuse
-version: 0.2.1
+version: 0.2.1-b2c2
 description: Open source LLM engineering platform - LLM observability, metrics, evaluations, prompt management.
 type: application
 keywords:
@@ -19,8 +19,7 @@ dependencies:
     repository: oci://registry-1.docker.io/bitnamicharts
     condition: postgresql.deploy
 maintainers:
-  - name: langfuse
-    email: contact@langfuse.com
-    url: https://langfuse.com/
-icon: https://langfuse.com/langfuse_logo.png
+  - name: b2c2
+    email: info@b2c2.com
+    url: https://b2c2.com/
 appVersion: "2"
