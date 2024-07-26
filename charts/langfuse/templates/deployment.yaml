@@ -82,6 +82,11 @@ spec:
             - name: {{ $key }}
               value: {{ $value | quote }}
             {{- end }}
+          {{- if .Values.externalSecrets }}
+          envFrom:
+            - secretRef:
+                name: {{ include "langfuse.fullname" . }}
+          {{- end }}
           ports:
             - name: http
               containerPort: {{ .Values.service.port }}

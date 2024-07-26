@@ -9,6 +9,11 @@ imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
 
+externalSecrets: {}
+#  external-secrets-global:
+#    - hello/mum/lookat/me
+#    - another/example/here/mate
+
 langfuse:
   nodeEnv: production
   nextauth:
