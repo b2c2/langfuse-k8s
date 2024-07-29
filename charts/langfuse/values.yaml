@@ -17,7 +17,7 @@ externalSecrets: {}
 langfuse:
   nodeEnv: production
   nextauth:
-    url: http://localhost:3000
+    url: https://
     secret: changeme
   salt: changeme
   telemetryEnabled: True
